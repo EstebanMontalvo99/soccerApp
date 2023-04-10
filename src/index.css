@@ -15,7 +15,8 @@ p span {
   font-weight: bold;
 }
 .teamImg {
-  width: 25px;
+  width: 20px;
+  min-height: 20px;
 }
 
 .App {
