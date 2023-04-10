@@ -15,6 +15,7 @@ p span {
   font-weight: bold;
 }
 .teamImg {
+  max-height: 20px;
   width: 20px;
 }
 
