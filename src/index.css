@@ -121,7 +121,7 @@ p span {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-height: 66%;
+  min-height: 70%;
   background-color: honeydew;
 }
 .playerName {
