@@ -27,7 +27,7 @@ const PlayersData = ({ data }) => {
             <ul className="playerList">
               <li className="playerItem">
                 <p>
-                  Games Appearences:
+                  Game Appearences:
                   <span>{playerData?.statistics[0].games.appearences}</span>
                 </p>
               </li>

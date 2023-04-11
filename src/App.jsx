@@ -70,7 +70,7 @@ function App() {
             )}
             <form onSubmit={leagueHandler} id="selectLeague">
               <label htmlFor="league">League: </label>
-              <select id="league">
+              <select id="league" defaultValue={league}>
                 <option value="2">UEFA Champions League</option>
                 <option value="3"> UEFA Europa League</option>
                 <option value="78">Bundesliga</option>
@@ -80,7 +80,7 @@ function App() {
                 <option value="135">Serie A</option>
               </select>
               <label htmlFor="season">Season: </label>
-              <select id="season">
+              <select id="season" defaultValue={season}>
                 <option value="2022">2022-2023</option>
                 <option value="2021">2021-2022</option>
                 <option value="2020">2020-2021</option>
